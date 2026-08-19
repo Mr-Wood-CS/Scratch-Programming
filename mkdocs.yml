@@ -10,6 +10,9 @@ theme:
     - scheme: default
       primary: deep orange
       accent: amber
+  font:
+    text: Quicksand
+    code: Roboto Mono
 nav:
   - Start Here: index.md
   - "Lesson 1: Hero Controls": lessons/lesson-1-hero-controls.md

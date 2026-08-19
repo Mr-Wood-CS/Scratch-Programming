@@ -27,6 +27,4 @@ By the end, your game will include:
 
 Scratch code examples are shown as block images. Copy the blocks into Scratch one at a time. The code is a guide, not a spell: change numbers, costumes, sounds, and sprite names to match your project.
 
-## Start
 
-[Start Lesson 1: Hero Controls](lessons/lesson-1-hero-controls.md)
