@@ -11,7 +11,7 @@ Goal: by the end of this lesson, your game should have patrolling enemies, a liv
 ## Build Tasks
 
 1. Add an enemy sprite. Rename it `Enemy`.
-2. Create a variable called `lives` for all sprites. Use the [variable instructions from Lesson 1](lesson-1-hero-controls.md#how-to-create-a-variable) if you need a reminder.
+2. Create a variable called `lives` for all sprites. In the variable instructions, name the variable `lives`. Use the [variable instructions from Lesson 1](lesson-1-hero-controls.md#how-to-create-a-variable) if you need a reminder.
 3. Set `lives` to `3` when the green flag is clicked.
 4. Make the enemy patrol using `move` and `if on edge, bounce`.
 

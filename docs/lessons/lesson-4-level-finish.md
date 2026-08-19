@@ -11,7 +11,7 @@ Goal: by the end of this lesson, the player should be able to start, play, win, 
 ## Build Tasks
 
 1. Add a flag sprite at the end of the level.
-2. Create a variable called `time`. Use the [variable instructions from Lesson 1](lesson-1-hero-controls.md#how-to-create-a-variable) if you need a reminder.
+2. Create a variable called `time` for all sprites. In the variable instructions, name the variable `time`. Use the [variable instructions from Lesson 1](lesson-1-hero-controls.md#how-to-create-a-variable) if you need a reminder.
 3. Set the timer at the start of the game.
 4. Make the timer count down while the game is running.
 5. Broadcast `you win` when the player touches the flag.
@@ -26,7 +26,7 @@ Goal: by the end of this lesson, the player should be able to start, play, win, 
 
 ## Optional Challenge: Side-Scrolling Camera
 
-This script keeps the player near the middle of the screen and changes a `scroll x` variable. Use the [variable instructions from Lesson 1](lesson-1-hero-controls.md#how-to-create-a-variable) to create `scroll x` if you need a reminder. Use it only if you are ready for a harder challenge. Sprites in the level can use `set x to ((start x) + (scroll x))` to move with the camera.
+This script keeps the player near the middle of the screen and changes a `scroll x` variable. In the variable instructions, name the variable `scroll x`. Use the [variable instructions from Lesson 1](lesson-1-hero-controls.md#how-to-create-a-variable) if you need a reminder. Use this only if you are ready for a harder challenge. Sprites in the level can use `set x to ((start x) + (scroll x))` to move with the camera.
 
 ![Scratch blocks for a simple side-scrolling camera](../assets/scratchblocks/scroll-camera.png){ .scratch-image }
 

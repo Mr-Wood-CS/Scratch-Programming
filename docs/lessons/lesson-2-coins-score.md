@@ -11,7 +11,7 @@ Goal: by the end of this lesson, the player should be able to collect coins and 
 ## Build Tasks
 
 1. Add a coin sprite. Rename it `Coin`.
-2. Create a variable called `score` for all sprites. Use the [variable instructions from Lesson 1](lesson-1-hero-controls.md#how-to-create-a-variable) if you need a reminder.
+2. Create a variable called `score` for all sprites. In the variable instructions, name the variable `score`. Use the [variable instructions from Lesson 1](lesson-1-hero-controls.md#how-to-create-a-variable) if you need a reminder.
 3. Set `score` to `0` when the green flag is clicked.
 
     ![Scratch blocks for resetting the score](../assets/scratchblocks/score-start.png){ .scratch-image }
