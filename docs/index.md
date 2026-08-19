@@ -3,7 +3,7 @@
 Build a bright, fast little Scratch platform game over four lessons. The style is inspired by classic 16-bit arcade platformers: a hero runs, jumps, grabs coins, dodges enemies, and reaches a flag at the end of the level.
 
 <div class="arcade-brief">
-Each lesson is designed for independent work. Start at Lesson 1.
+Each lesson is designed for independent work. Start at Lesson 1 and continue to work through the lessons.
 </div>
 
 ## What You Will Make
@@ -18,7 +18,7 @@ By the end, your game will include:
 
 ## What You Need
 
-- Scratch open in your browser or desktop app.
+- Scratch open in the desktop app.
 - A new project named `Arcade Quest`.
 - A hero sprite, a coin sprite, an enemy sprite, and a flag sprite.
 - A simple platform backdrop drawn with solid ground colors.
