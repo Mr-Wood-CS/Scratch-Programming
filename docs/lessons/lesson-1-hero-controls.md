@@ -29,7 +29,7 @@ Goal: by the end of this lesson, your player should move smoothly and jump only 
 3. Create a variable called `y speed` for the player only.
 
     <span id="how-to-create-a-variable"></span>
-    **How to create a variable:** A variable is a named box that stores a number for your game. You will use variables for things like jump speed, score, lives, and time.
+    **How to create a variable:** A variable is a named box that stores a number for your game.
 
     ![Scratch blocks showing set, change, and read a variable](../assets/scratchblocks/variable-example.png){ .scratch-image }
 
@@ -39,10 +39,7 @@ Goal: by the end of this lesson, your player should move smoothly and jump only 
     2. Click **Make a Variable**.
     3. Name the variable `y speed`.
     4. Choose **For this sprite only** because `y speed` belongs to the player sprite.
-    5. If a later lesson asks for a different variable, name it exactly as that task says: `score`, `lives`, `time`, or `scroll x`.
-    6. Choose **For all sprites** when the whole game needs to see it, such as `score`, `lives`, or `time`.
-    7. Choose **For this sprite only** when only one sprite needs it, such as the player’s `y speed`.
-    8. Click **OK**.
+    5. Click **OK**.
 
 4. Add left and right movement.
 
