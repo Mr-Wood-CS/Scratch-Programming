@@ -11,19 +11,17 @@ Goal: by the end of this lesson, the player should be able to collect coins and 
 ## Build Tasks
 
 1. Add a coin sprite. Rename it `Coin`.
-2. Create a variable called `score` for all sprites.
+2. Create a variable called `score` for all sprites. Use the [variable instructions from Lesson 1](lesson-1-hero-controls.md#how-to-create-a-variable) if you need a reminder.
 3. Set `score` to `0` when the green flag is clicked.
+
+    ![Scratch blocks for resetting the score](../assets/scratchblocks/score-start.png){ .scratch-image }
+
 4. Place coins in tricky but fair spots.
 5. Make the coin react when it touches the player.
+
+    ![Scratch blocks for collecting a coin](../assets/scratchblocks/coin-collect.png){ .scratch-image }
+
 6. Add a sound so collecting a coin feels satisfying.
-
-## Code Image: Start The Score
-
-![Scratch blocks for resetting the score](../assets/scratchblocks/score-start.png){ .scratch-image }
-
-## Code Image: Collect A Coin
-
-![Scratch blocks for collecting a coin](../assets/scratchblocks/coin-collect.png){ .scratch-image }
 
 ## Make It Feel Arcade
 

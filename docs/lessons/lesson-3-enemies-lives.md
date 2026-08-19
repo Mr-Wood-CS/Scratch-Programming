@@ -11,20 +11,18 @@ Goal: by the end of this lesson, your game should have patrolling enemies, a liv
 ## Build Tasks
 
 1. Add an enemy sprite. Rename it `Enemy`.
-2. Create a variable called `lives` for all sprites.
+2. Create a variable called `lives` for all sprites. Use the [variable instructions from Lesson 1](lesson-1-hero-controls.md#how-to-create-a-variable) if you need a reminder.
 3. Set `lives` to `3` when the green flag is clicked.
 4. Make the enemy patrol using `move` and `if on edge, bounce`.
+
+    ![Scratch blocks for enemy patrol](../assets/scratchblocks/enemy-patrol.png){ .scratch-image }
+
 5. Broadcast `ouch` when the enemy touches the player.
 6. Make the player lose a life and return to the start.
+
+    ![Scratch blocks for losing a life](../assets/scratchblocks/lose-life.png){ .scratch-image }
+
 7. Broadcast `game over` when lives reaches `0`.
-
-## Code Image: Enemy Patrol
-
-![Scratch blocks for enemy patrol](../assets/scratchblocks/enemy-patrol.png){ .scratch-image }
-
-## Code Image: Lose A Life
-
-![Scratch blocks for losing a life](../assets/scratchblocks/lose-life.png){ .scratch-image }
 
 ## Checkpoint
 

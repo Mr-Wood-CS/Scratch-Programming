@@ -11,46 +11,49 @@ Goal: by the end of this lesson, your player should move smoothly and jump only 
 ## Build Tasks
 
 1. Choose or draw a hero sprite. Rename it `Player`.
+
+    Your hero should be simple enough to redraw in Scratch. Good choices have a clear shape, a face or feature that shows which way they are facing, and one or two bold colours.
+
+    ![Four example platform game hero sprite ideas: adventurer, star explorer, robot, and blob](../assets/examples/hero-sprite-ideas.png){ .example-image }
+
+    Try a tiny runner with a bright hat, a star explorer, a friendly robot, a bouncing blob, or invent your own.
+
 2. Draw a backdrop with a clear ground color. Use one solid color for platforms, such as green.
+
+    The backdrop should make the game easy to read. Use one clear colour for ground and platforms so your collision code can check that colour.
+
+    ![Example Scratch platform game background with green ground, platforms, coins, and finish flag](../assets/examples/platform-background-example.png){ .example-image }
+
+    Helpful ingredients: flat ground along the bottom, floating platforms with the same top colour, coins above safe jumps, a finish flag at the far right, and empty sky space so sprites are easy to see.
+
 3. Create a variable called `y speed` for the player only.
+
+    If you have not made a variable before, use the [How To Create A Variable](#how-to-create-a-variable) instructions below.
+
 4. Add left and right movement.
+
+    ![Scratch blocks for moving the player left and right](../assets/scratchblocks/player-move.png){ .scratch-image }
+
 5. Add gravity and jumping.
+
+    ![Scratch blocks for jump and gravity](../assets/scratchblocks/player-jump.png){ .scratch-image }
+
 6. Test every platform by jumping onto it and trying to walk off it.
 
-## Example Ideas: Player Sprite
+## How To Create A Variable
 
-Your hero should be simple enough to redraw in Scratch. Good choices have a clear shape, a face or feature that shows which way they are facing, and one or two bold colours.
+A variable is a named box that stores a number for your game. You will use variables for things like jump speed, score, lives, and time.
 
-![Four example platform game hero sprite ideas: adventurer, star explorer, robot, and blob](../assets/examples/hero-sprite-ideas.png){ .example-image }
+![Scratch blocks showing set, change, and read a variable](../assets/scratchblocks/variable-example.png){ .scratch-image }
 
-Try one of these ideas, or invent your own:
+To create a variable in Scratch:
 
-- A tiny runner with a bright hat.
-- A star explorer with boots.
-- A friendly robot with glowing eyes.
-- A bouncing blob with a simple face.
-
-## Example Ideas: Platform Background
-
-The backdrop should make the game easy to read. Use one clear colour for ground and platforms so your collision code can check that colour.
-
-![Example Scratch platform game background with green ground, platforms, coins, and finish flag](../assets/examples/platform-background-example.png){ .example-image }
-
-Helpful backdrop ingredients:
-
-- Flat ground along the bottom.
-- Floating platforms with the same top colour.
-- Coins above safe jumps.
-- A finish flag at the far right.
-- Empty sky space so sprites are easy to see.
-
-## Code Image: Run Left And Right
-
-![Scratch blocks for moving the player left and right](../assets/scratchblocks/player-move.png){ .scratch-image }
-
-## Code Image: Jump And Gravity
-
-![Scratch blocks for jump and gravity](../assets/scratchblocks/player-jump.png){ .scratch-image }
+1. Click **Variables** in the block menu.
+2. Click **Make a Variable**.
+3. Type the variable name exactly as the lesson shows it.
+4. Choose **For all sprites** when the whole game needs to see it, such as `score`, `lives`, or `time`.
+5. Choose **For this sprite only** when only one sprite needs it, such as the player’s `y speed`.
+6. Click **OK**.
 
 ## Checkpoint
 

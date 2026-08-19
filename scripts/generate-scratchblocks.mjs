@@ -12,6 +12,13 @@ const outputDir = path.join(projectRoot, "docs", "assets", "scratchblocks")
 
 const blocks = [
   {
+    file: "variable-example",
+    title: "Example variable blocks",
+    script: `set [my variable v] to [0]
+change [my variable v] by (1)
+(my variable)`,
+  },
+  {
     file: "player-move",
     title: "Player movement",
     script: `when green flag clicked
