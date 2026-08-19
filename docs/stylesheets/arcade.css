@@ -50,6 +50,15 @@ body {
   box-sizing: border-box;
 }
 
+.example-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccd5e1;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
 .task-list li {
   margin-bottom: 0.35rem;
 }

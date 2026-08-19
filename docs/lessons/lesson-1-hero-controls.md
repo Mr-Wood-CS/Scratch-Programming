@@ -17,6 +17,33 @@ Goal: by the end of this lesson, your player should move smoothly and jump only 
 5. Add gravity and jumping.
 6. Test every platform by jumping onto it and trying to walk off it.
 
+## Example Ideas: Player Sprite
+
+Your hero should be simple enough to redraw in Scratch. Good choices have a clear shape, a face or feature that shows which way they are facing, and one or two bold colours.
+
+![Four example platform game hero sprite ideas: adventurer, star explorer, robot, and blob](../assets/examples/hero-sprite-ideas.png){ .example-image }
+
+Try one of these ideas, or invent your own:
+
+- A tiny runner with a bright hat.
+- A star explorer with boots.
+- A friendly robot with glowing eyes.
+- A bouncing blob with a simple face.
+
+## Example Ideas: Platform Background
+
+The backdrop should make the game easy to read. Use one clear colour for ground and platforms so your collision code can check that colour.
+
+![Example Scratch platform game background with green ground, platforms, coins, and finish flag](../assets/examples/platform-background-example.png){ .example-image }
+
+Helpful backdrop ingredients:
+
+- Flat ground along the bottom.
+- Floating platforms with the same top colour.
+- Coins above safe jumps.
+- A finish flag at the far right.
+- Empty sky space so sprites are easy to see.
+
 ## Code Image: Run Left And Right
 
 ![Scratch blocks for moving the player left and right](../assets/scratchblocks/player-move.png){ .scratch-image }
