@@ -1,0 +1,30 @@
+{
+  "name": "scratch-programming",
+  "version": "1.0.0",
+  "description": "Four MkDocs lessons for learners building a fun Scratch arcade platformer inspired by classic side-scrolling games.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "blocks": "node scripts/generate-scratchblocks.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mr-Wood-CS/Scratch-Programming.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mr-Wood-CS/Scratch-Programming/issues"
+  },
+  "homepage": "https://github.com/Mr-Wood-CS/Scratch-Programming#readme",
+  "devDependencies": {
+    "jsdom": "^29.1.1",
+    "scratchblocks": "^3.7.1",
+    "sharp": "^0.35.3"
+  }
+}

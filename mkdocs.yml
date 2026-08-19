@@ -1,0 +1,15 @@
+site_name: Scratch Arcade Quest
+site_description: Four independent Scratch lessons for building a fun SNES-style arcade platform game.
+theme:
+  name: mkdocs
+  highlightjs: true
+nav:
+  - Start Here: index.md
+  - "Lesson 1: Hero Controls": lessons/lesson-1-hero-controls.md
+  - "Lesson 2: Coins and Score": lessons/lesson-2-coins-score.md
+  - "Lesson 3: Enemies and Lives": lessons/lesson-3-enemies-lives.md
+  - "Lesson 4: Level Finish": lessons/lesson-4-level-finish.md
+extra_css:
+  - stylesheets/arcade.css
+markdown_extensions:
+  - attr_list
