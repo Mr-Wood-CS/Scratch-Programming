@@ -28,7 +28,19 @@ Goal: by the end of this lesson, your player should move smoothly and jump only 
 
 3. Create a variable called `y speed` for the player only.
 
-    If you have not made a variable before, use the [How To Create A Variable](#how-to-create-a-variable) instructions below.
+    <span id="how-to-create-a-variable"></span>
+    **How to create a variable:** A variable is a named box that stores a number for your game. You will use variables for things like jump speed, score, lives, and time.
+
+    ![Scratch blocks showing set, change, and read a variable](../assets/scratchblocks/variable-example.png){ .scratch-image }
+
+    To create a variable in Scratch:
+
+    1. Click **Variables** in the block menu.
+    2. Click **Make a Variable**.
+    3. Type the variable name exactly as the lesson shows it.
+    4. Choose **For all sprites** when the whole game needs to see it, such as `score`, `lives`, or `time`.
+    5. Choose **For this sprite only** when only one sprite needs it, such as the player’s `y speed`.
+    6. Click **OK**.
 
 4. Add left and right movement.
 
@@ -39,21 +51,6 @@ Goal: by the end of this lesson, your player should move smoothly and jump only 
     ![Scratch blocks for jump and gravity](../assets/scratchblocks/player-jump.png){ .scratch-image }
 
 6. Test every platform by jumping onto it and trying to walk off it.
-
-## How To Create A Variable
-
-A variable is a named box that stores a number for your game. You will use variables for things like jump speed, score, lives, and time.
-
-![Scratch blocks showing set, change, and read a variable](../assets/scratchblocks/variable-example.png){ .scratch-image }
-
-To create a variable in Scratch:
-
-1. Click **Variables** in the block menu.
-2. Click **Make a Variable**.
-3. Type the variable name exactly as the lesson shows it.
-4. Choose **For all sprites** when the whole game needs to see it, such as `score`, `lives`, or `time`.
-5. Choose **For this sprite only** when only one sprite needs it, such as the player’s `y speed`.
-6. Click **OK**.
 
 ## Checkpoint
 

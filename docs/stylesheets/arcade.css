@@ -52,7 +52,7 @@ body {
 
 .example-image {
   display: block;
-  max-width: min(100%, 680px);
+  max-width: min(100%, 460px);
   height: auto;
   border: 1px solid #ccd5e1;
   border-radius: 8px;
