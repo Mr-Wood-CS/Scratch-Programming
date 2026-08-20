@@ -1,0 +1,80 @@
+body {
+  color: #1c2430;
+}
+
+.arcade-brief {
+  border-left: 5px solid #ffcb3d;
+  background: #fff8df;
+  padding: 0.8rem 1rem;
+  margin: 1rem 0;
+}
+
+.mission-card {
+  border: 1px solid #d7deea;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #f8fbff;
+}
+
+.checkpoint {
+  border-left: 5px solid #42b883;
+  background: #eefaf4;
+  padding: 0.8rem 1rem;
+  margin: 1rem 0;
+}
+
+.boss-key {
+  border-left: 5px solid #e85d75;
+  background: #fff1f4;
+  padding: 0.8rem 1rem;
+  margin: 1rem 0;
+}
+
+.scratch-frame {
+  width: 100%;
+  min-height: 360px;
+  border: 1px solid #ccd5e1;
+  border-radius: 8px;
+  background: white;
+}
+
+.scratch-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccd5e1;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.example-image {
+  display: block;
+  max-width: min(100%, 460px);
+  height: auto;
+  border: 1px solid #ccd5e1;
+  border-radius: 8px;
+  background: #ffffff;
+  margin: 0.75rem auto 1rem;
+}
+
+.video-frame {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 8px;
+  margin: 0.75rem 0 1rem;
+}
+
+.image-credit {
+  color: #5c6675;
+  font-size: 0.75rem;
+  margin-top: -0.5rem;
+  text-align: center;
+}
+
+.task-list li {
+  margin-bottom: 0.35rem;
+}
