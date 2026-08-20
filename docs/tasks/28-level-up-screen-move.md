@@ -12,7 +12,17 @@ Instead, the `Player` stays near the middle of the screen, and the level sprites
 
 ## Before You Start
 
-For this Level Up, the platforms must be sprites.
+Make a new scene for this Level Up.
+
+1. Click the **Stage** thumbnail.
+2. Click **Backdrops**.
+3. Click **Choose a Backdrop**.
+4. Click **Paint**.
+5. Rename the new backdrop `Scrolling Level`.
+6. Draw the sky and background.
+7. Do not draw platforms on this backdrop.
+
+For this Level Up, the platforms must be sprites so they can move.
 
 1. Click **Choose a Sprite**.
 2. Click **Paint**.
@@ -24,7 +34,7 @@ For this Level Up, the platforms must be sprites.
 8. Right-click `Platform 2`.
 9. Click **duplicate**.
 10. Rename the copy `Platform 3`.
-11. Put the three platforms across the level.
+11. Put the three platforms across the new scene.
 
 ## Do This
 
@@ -33,7 +43,8 @@ For this Level Up, the platforms must be sprites.
 3. Name the variable `scroll x`.
 4. Click **OK**.
 5. In the sprite list below the Stage, click the `Player` sprite. (If you cannot remember where the sprite list is, go back to [Start Here: Where To Click Sprites](../index.md#where-to-click-sprites).)
-6. Build this code.
+6. Add `switch backdrop to Scrolling Level` under the green flag block.
+7. Build the rest of this code.
 
 ![Scratch blocks for making the screen scroll sideways](../assets/scratchblocks/scroll-camera.png){ .scratch-image }
 

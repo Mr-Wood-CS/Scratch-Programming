@@ -113,6 +113,7 @@ end`,
     file: "scroll-camera",
     title: "Simple side-scrolling camera",
     script: `when green flag clicked
+switch backdrop to [Scrolling Level v]
 set [scroll x v] to [0]
 forever
 if <(x position) > [120]> then
