@@ -46,6 +46,8 @@ nav:
       - "25. Time Runs Out": tasks/25-time-runs-out.md
       - "26. Start Screen": tasks/26-start-screen.md
       - "27. Win Screen": tasks/27-win-screen.md
+  - "Level Up":
+      - "Make The Screen Move": tasks/28-level-up-screen-move.md
 extra_css:
   - stylesheets/arcade.css
 markdown_extensions:

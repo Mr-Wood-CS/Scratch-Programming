@@ -125,6 +125,14 @@ set x to (-120)
 end
 end`,
   },
+  {
+    file: "scroll-level-sprite",
+    title: "Move a level sprite with scroll x",
+    script: `when green flag clicked
+forever
+set x to ((0) - (scroll x))
+end`,
+  },
 ]
 
 const dom = new JSDOM("<!doctype html><html><head></head><body></body></html>")
