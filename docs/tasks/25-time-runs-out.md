@@ -6,7 +6,7 @@ Make the game end when the timer reaches zero.
 
 ## Do This
 
-1. [In the sprite list below the Stage](../index.md#where-to-click-sprites), click the `Player` sprite, or click the Stage thumbnail.
+1. In the sprite list below the Stage, click the `Player` sprite, or click the Stage thumbnail. (If you cannot remember where the sprite list is, go back to [Start Here: Where To Click Sprites](../index.md#where-to-click-sprites).)
 2. Use the `time = 0` part of the code from Task 23.
 3. Make it broadcast `game over`.
 4. Test by changing the starting time to `5`.

@@ -6,7 +6,7 @@ Make the player move with the arrow keys.
 
 ## Do This
 
-1. [In the sprite list below the Stage](../index.md#where-to-click-sprites), click the `Player` sprite.
+1. In the sprite list below the Stage, click the `Player` sprite. (If you cannot remember where the sprite list is, go back to [Start Here: Where To Click Sprites](../index.md#where-to-click-sprites).)
 2. Build this code.
 3. Press the green flag.
 4. Test the left and right arrow keys.
