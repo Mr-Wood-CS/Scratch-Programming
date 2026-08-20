@@ -6,7 +6,7 @@ Create the variable that controls jumping and falling.
 
 ## Do This
 
-1. In the sprite list below the Stage, click the `Player` sprite.
+1. [In the sprite list below the Stage](../index.md#where-to-click-sprites), click the `Player` sprite.
 2. Click **Variables**.
 3. Click **Make a Variable**.
 4. Name the variable `y speed`.

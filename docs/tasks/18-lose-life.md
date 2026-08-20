@@ -6,7 +6,7 @@ Make the player lose one life after touching an enemy.
 
 ## Do This
 
-1. In the sprite list below the Stage, click the `Player` sprite.
+1. [In the sprite list below the Stage](../index.md#where-to-click-sprites), click the `Player` sprite.
 2. Build this code.
 3. Test by touching the enemy.
 
