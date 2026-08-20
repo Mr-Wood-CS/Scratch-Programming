@@ -15,10 +15,37 @@ theme:
     code: Roboto Mono
 nav:
   - Start Here: index.md
-  - "Lesson 1: Hero Controls": lessons/lesson-1-hero-controls.md
-  - "Lesson 2: Coins and Score": lessons/lesson-2-coins-score.md
-  - "Lesson 3: Enemies and Lives": lessons/lesson-3-enemies-lives.md
-  - "Lesson 4: Level Finish": lessons/lesson-4-level-finish.md
+  - "Lesson 1: Hero Controls":
+      - "1. Draw Your Hero": tasks/01-draw-hero.md
+      - "2. Draw Your Level": tasks/02-draw-level.md
+      - "3. Make y speed": tasks/03-y-speed-variable.md
+      - "4. Move Left And Right": tasks/04-left-right.md
+      - "5. Jump And Fall": tasks/05-jump-gravity.md
+      - "6. Test The Platforms": tasks/06-test-platforms.md
+  - "Lesson 2: Coins And Score":
+      - "7. Add A Coin": tasks/07-add-coin.md
+      - "8. Make score": tasks/08-score-variable.md
+      - "9. Reset score": tasks/09-reset-score.md
+      - "10. Place Coins": tasks/10-place-coins.md
+      - "11. Collect Coins": tasks/11-collect-coins.md
+      - "12. Add Coin Sound": tasks/12-coin-sound.md
+  - "Lesson 3: Enemies And Lives":
+      - "13. Add An Enemy": tasks/13-add-enemy.md
+      - "14. Make lives": tasks/14-lives-variable.md
+      - "15. Set lives": tasks/15-set-lives.md
+      - "16. Enemy Patrol": tasks/16-enemy-patrol.md
+      - "17. Send ouch": tasks/17-send-ouch.md
+      - "18. Lose A Life": tasks/18-lose-life.md
+      - "19. Game Over": tasks/19-game-over.md
+  - "Lesson 4: Finish The Game":
+      - "20. Add A Flag": tasks/20-add-flag.md
+      - "21. Make time": tasks/21-time-variable.md
+      - "22. Set time": tasks/22-set-time.md
+      - "23. Count Down": tasks/23-count-down.md
+      - "24. Win At The Flag": tasks/24-win-flag.md
+      - "25. Time Runs Out": tasks/25-time-runs-out.md
+      - "26. Start Screen": tasks/26-start-screen.md
+      - "27. Win Screen": tasks/27-win-screen.md
 extra_css:
   - stylesheets/arcade.css
 markdown_extensions:

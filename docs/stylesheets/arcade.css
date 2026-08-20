@@ -60,6 +60,14 @@ body {
   margin: 0.75rem auto 1rem;
 }
 
+.video-frame {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 8px;
+  margin: 0.75rem 0 1rem;
+}
+
 .task-list li {
   margin-bottom: 0.35rem;
 }

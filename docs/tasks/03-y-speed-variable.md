@@ -1,0 +1,20 @@
+# Task 3: Make `y speed`
+
+## Goal
+
+Create the variable that controls jumping and falling.
+
+## Do This
+
+1. Click the `Player` sprite.
+2. Click **Variables**.
+3. Click **Make a Variable**.
+4. Name the variable `y speed`.
+5. Choose **For this sprite only**.
+6. Click **OK**.
+
+![Scratch blocks showing set, change, and read a variable](../assets/scratchblocks/variable-example.png){ .scratch-image }
+
+## Check
+
+You should see a variable called `y speed`.

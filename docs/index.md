@@ -14,7 +14,7 @@ By the end, your game will include:
 - Platforms and jump physics.
 - Coins, score, and sound effects.
 - Enemies, lives, and a game over moment.
-- A finish flag, timer, win screen, and optional scrolling level.
+- A finish flag, timer, and win screen.
 
 ## What You Need
 
@@ -25,6 +25,8 @@ By the end, your game will include:
 
 ## How To Use The Code Images
 
-Scratch code examples are shown as block images. Copy the blocks into Scratch one at a time. The code is a guide, not a spell: change numbers, costumes, sounds, and sprite names to match your project.
+Scratch code examples are shown as block images. Copy the blocks into Scratch one at a time.
 
+## Start
 
+[Start Lesson 1, Task 1: Draw Your Hero](tasks/01-draw-hero.md)
