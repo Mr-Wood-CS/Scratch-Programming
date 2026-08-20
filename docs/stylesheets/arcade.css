@@ -68,6 +68,13 @@ body {
   margin: 0.75rem 0 1rem;
 }
 
+.image-credit {
+  color: #5c6675;
+  font-size: 0.75rem;
+  margin-top: -0.5rem;
+  text-align: center;
+}
+
 .task-list li {
   margin-bottom: 0.35rem;
 }

@@ -6,7 +6,7 @@ Add a collectable item for the player to grab.
 
 ## Watch First
 
-<iframe class="video-frame" src="https://www.youtube.com/embed/4v1CIKehF6E" title="YouTube video about making a Scratch clicker game with items and score" allowfullscreen></iframe>
+Watch the sprite-making video in [Task 1: Draw Your Hero](01-draw-hero.md#watch-first). Then come back to this task.
 
 ## Do This
 
