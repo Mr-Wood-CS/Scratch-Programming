@@ -9,8 +9,7 @@ Create the variable that stores the player’s score.
 1. Click **Variables**.
 2. Click **Make a Variable**.
 3. Name the variable `score`.
-4. Choose **For all sprites**.
-5. Click **OK**.
+4. Click **OK**.
 
 Use [Task 3: Make `y speed`](03-y-speed-variable.md) if you need to see the variable buttons again.
 
