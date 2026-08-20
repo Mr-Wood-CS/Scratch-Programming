@@ -7,10 +7,11 @@ Add something the player should avoid.
 ## Do This
 
 1. Click **Choose a Sprite**.
-2. Choose or paint a simple enemy.
-3. Rename it `Enemy`.
-4. Put it on a platform.
-5. Make it smaller if it covers too much space.
+2. Click **Paint**.
+3. Draw a simple enemy, like a spike, blob, or robot.
+4. Rename it `Enemy`.
+5. Put it on a platform the `Player` can reach.
+6. Make it smaller if it covers most of the platform.
 
 ## Check
 

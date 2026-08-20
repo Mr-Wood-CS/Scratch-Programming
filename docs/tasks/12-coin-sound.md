@@ -8,10 +8,11 @@ Make collecting a coin feel satisfying.
 
 1. In the sprite list below the Stage, click the `Coin` sprite.
 2. Click **Sounds**.
-3. Choose or record a short sound.
-4. Go back to **Code**.
-5. Make sure your collect code includes `play sound coin until done`.
-6. Test the game.
+3. Click **Choose a Sound**.
+4. Choose a short sound from the Scratch sound library.
+5. Go back to **Code**.
+6. Make sure your collect code includes `play sound coin until done`.
+7. Test the game.
 
 ## Check
 
