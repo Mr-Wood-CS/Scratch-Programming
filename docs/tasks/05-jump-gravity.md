@@ -6,7 +6,7 @@ Make the player jump and fall back down.
 
 ## Do This
 
-1. Click the `Player` sprite.
+1. In the sprite list below the Stage, click the `Player` sprite.
 2. Build this code.
 3. Use the same green colour as your ground.
 4. Press the green flag.

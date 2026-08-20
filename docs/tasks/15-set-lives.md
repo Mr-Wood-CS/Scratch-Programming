@@ -6,7 +6,7 @@ Make the game start with three lives.
 
 ## Do This
 
-1. Click the `Player` sprite or the **Stage**.
+1. In the sprite list below the Stage, click the `Player` sprite, or click the Stage thumbnail.
 2. Add a `when green flag clicked` block.
 3. Add `set lives to 3`.
 4. Press the green flag.

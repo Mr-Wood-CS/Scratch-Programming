@@ -6,7 +6,7 @@ Make collecting a coin feel satisfying.
 
 ## Do This
 
-1. Click the `Coin` sprite.
+1. In the sprite list below the Stage, click the `Coin` sprite.
 2. Click **Sounds**.
 3. Choose or record a short sound.
 4. Go back to **Code**.

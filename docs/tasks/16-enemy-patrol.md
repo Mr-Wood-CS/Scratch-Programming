@@ -6,7 +6,7 @@ Make the enemy move back and forth.
 
 ## Do This
 
-1. Click the `Enemy` sprite.
+1. In the sprite list below the Stage, click the `Enemy` sprite.
 2. Build this code.
 3. Press the green flag.
 
