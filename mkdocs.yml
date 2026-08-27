@@ -13,10 +13,10 @@ nav:
       - 6. Obstacles And Boosters: boat-race/boat-race-step-6.md
       - Challenge: boat-race/boat-race-challenge.md
   - Arcade Quest:
-    - "Project Overview": arcade-quest/index.md
-    - "Lesson 1: Hero Controls":
-        - "1. Draw Your Hero": arcade-quest/tasks/01-draw-hero.md
-        - "2. Draw Your Level": arcade-quest/tasks/02-draw-level.md
+    - Project Overview: arcade-quest/index.md
+    - Lesson 1 - Hero Controls:
+        - 1. Draw Your Hero: arcade-quest/tasks/01-draw-hero.md
+        - 2. Draw Your Level: arcade-quest/tasks/02-draw-level.md
         - "3. Make y speed": arcade-quest/tasks/03-y-speed-variable.md
         - "4. Move Left And Right": arcade-quest/tasks/04-left-right.md
         - "5. Jump And Fall": arcade-quest/tasks/05-jump-gravity.md
@@ -74,7 +74,6 @@ markdown_extensions:
       
 theme:
   name: material
-  logo: arcade-quest/assets/scratch-cat.png
   font:
     text: Quicksand
   palette:
@@ -82,6 +81,7 @@ theme:
     primary: blue
     accent: deep orange
   icon:
+    logo: material/code-tags
     admonition:
       note: fontawesome/solid/note-sticky
       abstract: fontawesome/solid/book
