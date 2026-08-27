@@ -1,7 +1,7 @@
 {
   "name": "scratch-programming",
   "version": "1.0.0",
-  "description": "Four MkDocs lessons for learners building a fun Scratch arcade platformer inspired by classic side-scrolling games.",
+  "description": "MkDocs learning resources for building Scratch games, including Arcade Quest and Boat Race.",
   "main": "index.js",
   "directories": {
     "doc": "docs"

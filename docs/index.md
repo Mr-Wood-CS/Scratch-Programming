@@ -1,40 +1,26 @@
-# Scratch Arcade Quest
+# Introduction to Scratch
 
-Build a bright, fast little Scratch platform game over four lessons. The style is inspired by classic 16-bit arcade platformers: a hero runs, jumps, grabs coins, dodges enemies, and reaches a flag at the end of the level.
+![Scratch cat](assets/scratch-cat.png){ width="180" }
 
-<div class="arcade-brief">
-Each lesson is designed for independent work. Start at Lesson 1 and continue to work through the lessons.
-</div>
+Scratch is a visual programming tool that lets you create games, animations, stories, and interactive projects. Instead of typing code, you build programs by joining blocks together. This makes it easier to focus on how a program works, how instructions fit together, and how to solve problems step by step.
 
-## What You Will Make
+We use Scratch because it helps you learn important programming ideas in a clear and practical way. You can see your code running straight away, test your ideas quickly, and improve your project as you go.
 
-By the end, your game will include:
+## What Scratch helps us learn
 
-- A controllable hero sprite.
-- Platforms and jump physics.
-- Coins, score, and sound effects.
-- Enemies, lives, and a game over moment.
-- A finish flag, timer, and win screen.
+Scratch helps us practise:
 
-## What You Need
+- Giving clear instructions to a computer.
+- Breaking a problem into smaller steps.
+- Using events to make something happen.
+- Using loops to repeat actions.
+- Using conditions to make decisions.
+- Using variables to store and change information.
+- Testing, debugging, and improving a program.
+- Designing projects that people can use, play, or interact with.
 
-- Scratch open in the desktop app.
-- A new project named `Arcade Quest`.
-- A hero sprite, a coin sprite, an enemy sprite, and a flag sprite.
-- A simple platform backdrop drawn with solid ground colors.
+## Why these skills matter
 
-## How To Use The Code Images
+Programming is not just about making something work. It is about thinking carefully, solving problems, testing ideas, and learning from mistakes. Scratch gives you a safe place to practise these skills while creating something of your own.
 
-Scratch code examples are shown as block images. Copy the blocks into Scratch one at a time.
-
-## Where To Click Sprites
-
-When a task says **In the sprite list below the Stage**, use the area in the red box.
-
-![Scratch editor with the sprite list below the Stage highlighted in red](assets/examples/scratch-sprite-list-area.png){ .example-image }
-
-<p class="image-credit">Screenshot adapted from Wikimedia Commons, CC BY-SA 2.0.</p>
-
-## Start
-
-[Start Lesson 1, Task 1: Draw Your Hero](tasks/01-draw-hero.md)
+As you work through the projects, you will become more confident at planning, building, testing, and improving digital solutions.

@@ -1,6 +1,6 @@
-# Scratch Arcade Quest
+# Scratch Programming
 
-Four MkDocs lessons for learners building a fun Scratch arcade platformer inspired by classic side-scrolling games.
+MkDocs learning resources for building Scratch games, including Arcade Quest and Boat Race.
 
 ## Run locally
 
