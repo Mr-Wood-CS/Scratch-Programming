@@ -1,5 +1,11 @@
 # Step 1: Getting started
 
+<style>
+  .md-footer__link--prev {
+    display: none;
+  }
+</style>
+
 !!! info "How to download and open the starter project in Scratch."
 
     [Download the Boat Race starter project](BoatRace.sb3){ .md-button .md-button--primary .download-button }

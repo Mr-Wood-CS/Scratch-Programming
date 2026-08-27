@@ -74,6 +74,7 @@ markdown_extensions:
       
 theme:
   name: material
+  logo: arcade-quest/assets/scratch-cat.png
   font:
     text: Quicksand
   palette:
@@ -81,7 +82,6 @@ theme:
     primary: blue
     accent: deep orange
   icon:
-    logo: material/code-tags
     admonition:
       note: fontawesome/solid/note-sticky
       abstract: fontawesome/solid/book

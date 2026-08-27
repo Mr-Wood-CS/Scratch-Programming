@@ -6,6 +6,17 @@ Build a bright, fast little Scratch platform game over four lessons. The style i
 Each lesson is designed for independent work. Start at Lesson 1 and continue to work through the lessons.
 </div>
 
+!!! info "Arcade Quest update — 27 August 2026"
+    The instructions and code pictures have been improved after pupil testing.
+
+    - The player now starts safely on screen.
+    - Left and right movement now keeps the player upright.
+    - Jumping and gravity have been corrected so the player falls back down.
+    - Coins must be separate sprites, not drawings on the backdrop.
+    - Completed coin sprites can be duplicated to make several working collectables.
+
+    If you have already started Arcade Quest, check your project against **Tasks 4, 5, and 7–12** before continuing.
+
 ## What You Will Make
 
 By the end, your game will include:
@@ -31,10 +42,10 @@ Scratch code examples are shown as block images. Copy the blocks into Scratch on
 
 When a task says **In the sprite list below the Stage**, use the area in the red box.
 
-![Scratch editor with the sprite list below the Stage highlighted in red](arcade-quest/assets/examples/scratch-sprite-list-area.png){ .example-image }
+![Scratch editor with the sprite list below the Stage highlighted in red](assets/examples/scratch-sprite-list-area.png){ .example-image }
 
 <p class="image-credit">Screenshot adapted from Wikimedia Commons, CC BY-SA 2.0.</p>
 
 ## Start
 
-[Start Lesson 1, Task 1: Draw Your Hero](arcade-quest/tasks/01-draw-hero.md)
+[Start Lesson 1, Task 1: Draw Your Hero](tasks/01-draw-hero.md)

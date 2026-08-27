@@ -1,6 +1,11 @@
-# Introduction to Scratch
+---
+hide:
+  - footer
+---
 
-![Scratch cat](assets/scratch-cat.png){ width="180" }
+![Scratch cat](arcade-quest/assets/scratch-cat.png){ width="180" style="display: block; margin: 0 auto;" }
+
+# Introduction to Scratch
 
 Scratch is a visual programming tool that lets you create games, animations, stories, and interactive projects. Instead of typing code, you build programs by joining blocks together. This makes it easier to focus on how a program works, how instructions fit together, and how to solve problems step by step.
 
