@@ -15,4 +15,4 @@ Make the coin increase the score when the player touches it.
 
 ## Check
 
-The score should go up by `1`, and the coin should move to a new place.
+The score should go up by `1` and the coin should disappear. Pressing the green flag should show it again.

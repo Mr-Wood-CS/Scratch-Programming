@@ -2,50 +2,51 @@ site_name: Scratch Programming
 site_description: Scratch programming projects for learning game design and core programming concepts.
 
 nav:
-  - "Boat Race":
-      - "Project Overview": boat-race/index.md
-      - "1. Getting Started": boat-race/boat-race-step-1.md
-      - "2. Controlling The Boat": boat-race/boat-race-step-2.md
-      - "3. Crashing": boat-race/boat-race-step-3.md
-      - "4. Winning": boat-race/boat-race-step-4.md
-      - "5. Adding A Timer": boat-race/boat-race-step-5.md
-      - "6. Obstacles And Boosters": boat-race/boat-race-step-6.md
-      - "Challenge": boat-race/boat-race-challenge.md
-  - Start Here: index.md
-  - Introduction to Scratch: arcade-quest/index.md
-  - "Lesson 1: Hero Controls":
-      - "1. Draw Your Hero": arcade-quest/tasks/01-draw-hero.md
-      - "2. Draw Your Level": arcade-quest/tasks/02-draw-level.md
-      - "3. Make y speed": arcade-quest/tasks/03-y-speed-variable.md
-      - "4. Move Left And Right": arcade-quest/tasks/04-left-right.md
-      - "5. Jump And Fall": arcade-quest/tasks/05-jump-gravity.md
-      - "6. Test The Platforms": arcade-quest/tasks/06-test-platforms.md
-  - "Lesson 2: Coins And Score":
-      - "7. Add A Coin": arcade-quest/tasks/07-add-coin.md
-      - "8. Make score": arcade-quest/tasks/08-score-variable.md
-      - "9. Reset score": arcade-quest/tasks/09-reset-score.md
-      - "10. Place Coins": arcade-quest/tasks/10-place-coins.md
-      - "11. Collect Coins": arcade-quest/tasks/11-collect-coins.md
-      - "12. Add Coin Sound": arcade-quest/tasks/12-coin-sound.md
-  - "Lesson 3: Enemies And Lives":
-      - "13. Add An Enemy": arcade-quest/tasks/13-add-enemy.md
-      - "14. Make lives": arcade-quest/tasks/14-lives-variable.md
-      - "15. Set lives": arcade-quest/tasks/15-set-lives.md
-      - "16. Enemy Patrol": arcade-quest/tasks/16-enemy-patrol.md
-      - "17. Send ouch": arcade-quest/tasks/17-send-ouch.md
-      - "18. Lose A Life": arcade-quest/tasks/18-lose-life.md
-      - "19. Game Over": arcade-quest/tasks/19-game-over.md
-  - "Lesson 4: Finish The Game":
-      - "20. Add A Flag": arcade-quest/tasks/20-add-flag.md
-      - "21. Make time": arcade-quest/tasks/21-time-variable.md
-      - "22. Set time": arcade-quest/tasks/22-set-time.md
-      - "23. Count Down": arcade-quest/tasks/23-count-down.md
-      - "24. Win At The Flag": arcade-quest/tasks/24-win-flag.md
-      - "25. Time Runs Out": arcade-quest/tasks/25-time-runs-out.md
-      - "26. Start Screen": arcade-quest/tasks/26-start-screen.md
-      - "27. Win Screen": arcade-quest/tasks/27-win-screen.md
-  - "Level Up":
-      - "Make The Screen Move": arcade-quest/tasks/28-level-up-screen-move.md
+  - Home: index.md
+  - Boat Race:
+      - Project Overview: boat-race/index.md
+      - 1. Getting Started: boat-race/boat-race-step-1.md
+      - 2. Controlling The Boat: boat-race/boat-race-step-2.md
+      - 3. Crashing: boat-race/boat-race-step-3.md
+      - 4. Winning: boat-race/boat-race-step-4.md
+      - 5. Adding A Timer: boat-race/boat-race-step-5.md
+      - 6. Obstacles And Boosters: boat-race/boat-race-step-6.md
+      - Challenge: boat-race/boat-race-challenge.md
+  - Arcade Quest:
+    - "Project Overview": arcade-quest/index.md
+    - "Lesson 1: Hero Controls":
+        - "1. Draw Your Hero": arcade-quest/tasks/01-draw-hero.md
+        - "2. Draw Your Level": arcade-quest/tasks/02-draw-level.md
+        - "3. Make y speed": arcade-quest/tasks/03-y-speed-variable.md
+        - "4. Move Left And Right": arcade-quest/tasks/04-left-right.md
+        - "5. Jump And Fall": arcade-quest/tasks/05-jump-gravity.md
+        - "6. Test The Platforms": arcade-quest/tasks/06-test-platforms.md
+    - "Lesson 2: Coins And Score":
+        - "7. Add A Coin": arcade-quest/tasks/07-add-coin.md
+        - "8. Make score": arcade-quest/tasks/08-score-variable.md
+        - "9. Reset score": arcade-quest/tasks/09-reset-score.md
+        - "10. Place Coins": arcade-quest/tasks/10-place-coins.md
+        - "11. Collect Coins": arcade-quest/tasks/11-collect-coins.md
+        - "12. Add Coin Sound": arcade-quest/tasks/12-coin-sound.md
+    - "Lesson 3: Enemies And Lives":
+        - "13. Add An Enemy": arcade-quest/tasks/13-add-enemy.md
+        - "14. Make lives": arcade-quest/tasks/14-lives-variable.md
+        - "15. Set lives": arcade-quest/tasks/15-set-lives.md
+        - "16. Enemy Patrol": arcade-quest/tasks/16-enemy-patrol.md
+        - "17. Send ouch": arcade-quest/tasks/17-send-ouch.md
+        - "18. Lose A Life": arcade-quest/tasks/18-lose-life.md
+        - "19. Game Over": arcade-quest/tasks/19-game-over.md
+    - "Lesson 4: Finish The Game":
+        - "20. Add A Flag": arcade-quest/tasks/20-add-flag.md
+        - "21. Make time": arcade-quest/tasks/21-time-variable.md
+        - "22. Set time": arcade-quest/tasks/22-set-time.md
+        - "23. Count Down": arcade-quest/tasks/23-count-down.md
+        - "24. Win At The Flag": arcade-quest/tasks/24-win-flag.md
+        - "25. Time Runs Out": arcade-quest/tasks/25-time-runs-out.md
+        - "26. Start Screen": arcade-quest/tasks/26-start-screen.md
+        - "27. Win Screen": arcade-quest/tasks/27-win-screen.md
+    - "Level Up":
+        - "Make The Screen Move": arcade-quest/tasks/28-level-up-screen-move.md
 markdown_extensions:
       - admonition
       - pymdownx.details
@@ -115,6 +116,3 @@ extra_css:
   - Styles/extra.css
   - arcade-quest/assets/arcade.css
   - stylesheets/boat-race.css
-
-markdown_extensions:
-  - attr_list

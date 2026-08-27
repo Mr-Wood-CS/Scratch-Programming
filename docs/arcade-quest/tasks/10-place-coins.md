@@ -1,8 +1,8 @@
-# Task 10: Place Coins
+# Task 10: Place Your First Coin
 
 ## Goal
 
-Put collectables where the player can reach them.
+Put the first collectable where the player can reach it.
 
 ## Do This
 
@@ -13,4 +13,4 @@ Put collectables where the player can reach them.
 
 ## Check
 
-The coin should be reachable, but not too easy.
+The coin should be visible and reachable. It must appear in the sprite list as `Coin`.

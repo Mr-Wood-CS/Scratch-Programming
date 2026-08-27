@@ -8,7 +8,7 @@ import scratchblocksFactory from "../node_modules/scratchblocks/index.js"
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const projectRoot = path.resolve(__dirname, "..")
-const outputDir = path.join(projectRoot, "docs", "assets", "scratchblocks")
+const outputDir = path.join(projectRoot, "docs", "arcade-quest", "assets", "scratchblocks")
 
 const blocks = [
   {
@@ -22,6 +22,7 @@ change [my variable v] by (1)
     file: "player-move",
     title: "Player movement",
     script: `when green flag clicked
+set rotation style [left-right v]
 forever
 if <key [right arrow v] pressed?> then
 change x by (6)
@@ -37,15 +38,16 @@ end`,
     file: "player-jump",
     title: "Jump and gravity",
     script: `when green flag clicked
+go to x: (-180) y: (0)
 set [y speed v] to [0]
 forever
 change y by (y speed)
 change [y speed v] by (-1)
 if <touching color [#2c8a3a] ?> then
-set [y speed v] to [0]
 repeat until <not <touching color [#2c8a3a] ?>>
 change y by (1)
 end
+set [y speed v] to [0]
 if <key [space v] pressed?> then
 set [y speed v] to [14]
 end
@@ -62,11 +64,13 @@ set [score v] to [0]`,
     file: "coin-collect",
     title: "Collect a coin",
     script: `when green flag clicked
+show
 forever
 if <touching [Player v] ?> then
 change [score v] by (1)
 play sound [coin v] until done
-go to [random position v]
+hide
+stop [this script v]
 end
 end`,
   },
