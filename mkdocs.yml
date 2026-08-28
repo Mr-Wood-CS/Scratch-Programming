@@ -114,5 +114,5 @@ copyright: Copyright &copy; 2025 Pixel&Wood Computer Science Tuition
 
 extra_css:
   - Styles/extra.css
-  - arcade-quest/assets/arcade.css
+  - arcade-quest/assets/css/arcade.css
   - stylesheets/boat-race.css
