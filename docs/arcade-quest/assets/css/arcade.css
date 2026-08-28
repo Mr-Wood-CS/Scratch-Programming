@@ -9,6 +9,12 @@ body {
   margin: 1rem 0;
 }
 
+.arcade-updates {
+  max-height: 20rem;
+  overflow-y: auto;
+  padding-right: 0.75rem;
+}
+
 .mission-card {
   border: 1px solid #d7deea;
   border-radius: 8px;
