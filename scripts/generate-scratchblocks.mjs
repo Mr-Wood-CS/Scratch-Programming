@@ -43,8 +43,8 @@ set [y speed v] to [0]
 forever
 change y by (y speed)
 change [y speed v] by (-1)
-if <touching color [#2c8a3a] ?> then
-repeat until <not <touching color [#2c8a3a] ?>>
+if <<touching [Platforms v] ?> and <(y speed) < [0]>> then
+repeat until <not <touching [Platforms v] ?>>
 change y by (1)
 end
 set [y speed v] to [0]

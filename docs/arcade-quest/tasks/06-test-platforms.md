@@ -10,8 +10,8 @@ Check that every platform works.
 2. Jump onto the ground.
 3. Jump onto each floating platform.
 4. Walk off the edge of a platform.
-5. Fix any platform colour that does not work.
+5. Check that the ground and every platform belong to the `Platforms` sprite if the player falls through one.
 
 ## Check
 
-The player should land on every green platform and fall when there is no platform.
+The player should land on every part of the `Platforms` sprite and fall when there is no platform.

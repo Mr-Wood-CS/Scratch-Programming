@@ -16,7 +16,7 @@ nav:
     - Project Overview: arcade-quest/index.md
     - Lesson 1 - Hero Controls:
         - 1. Draw Your Hero: arcade-quest/tasks/01-draw-hero.md
-        - 2. Draw Your Level: arcade-quest/tasks/02-draw-level.md
+        - 2. Make Your Platforms: arcade-quest/tasks/02-draw-level.md
         - "3. Make y speed": arcade-quest/tasks/03-y-speed-variable.md
         - "4. Move Left And Right": arcade-quest/tasks/04-left-right.md
         - "5. Jump And Fall": arcade-quest/tasks/05-jump-gravity.md
