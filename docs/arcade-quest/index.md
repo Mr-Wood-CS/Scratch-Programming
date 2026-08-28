@@ -9,7 +9,7 @@ Each lesson is designed for independent work. Start at Lesson 1 and continue to 
 !!! info "Arcade Quest updates"
     <div class="arcade-updates" markdown="1">
 
-    **28 August 2026**
+    <span class="arcade-update-date">28 August 2026</span>
 
     Platforms are now made as a sprite instead of being painted on the backdrop.
 
@@ -21,7 +21,7 @@ Each lesson is designed for independent work. Start at Lesson 1 and continue to 
 
     ---
 
-    **27 August 2026**
+    <span class="arcade-update-date">27 August 2026</span>
 
     The instructions and code pictures have been improved after pupil testing.
 
