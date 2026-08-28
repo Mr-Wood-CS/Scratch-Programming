@@ -9,6 +9,21 @@ body {
   margin: 1rem 0;
 }
 
+.arcade-updates {
+  max-height: 14rem;
+  overflow-y: auto;
+  padding-right: 1rem;
+  scrollbar-gutter: stable;
+}
+
+.arcade-update-date {
+  color: #b64b1a;
+  display: inline-block;
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
 .mission-card {
   border: 1px solid #d7deea;
   border-radius: 8px;

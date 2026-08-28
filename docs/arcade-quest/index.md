@@ -6,7 +6,23 @@ Build a bright, fast little Scratch platform game over four lessons. The style i
 Each lesson is designed for independent work. Start at Lesson 1 and continue to work through the lessons.
 </div>
 
-!!! info "Arcade Quest update — 27 August 2026"
+!!! info "Arcade Quest updates"
+    <div class="arcade-updates" markdown="1">
+
+    <span class="arcade-update-date">28 August 2026</span>
+
+    Platforms are now made as a sprite instead of being painted on the backdrop.
+
+    - The ground and floating platforms belong in one `Platforms` sprite.
+    - The player now lands by detecting the `Platforms` sprite while falling.
+    - Platform colour sensing is no longer needed.
+
+    If you have already drawn platforms on the backdrop, follow **Task 2** to move them into a `Platforms` sprite, then replace the player code using **Task 5**.
+
+    ---
+
+    <span class="arcade-update-date">27 August 2026</span>
+
     The instructions and code pictures have been improved after pupil testing.
 
     - The player now starts safely on screen.
@@ -16,6 +32,8 @@ Each lesson is designed for independent work. Start at Lesson 1 and continue to 
     - Completed coin sprites can be duplicated to make several working collectables.
 
     If you have already started Arcade Quest, check your project against **Tasks 4, 5, and 7–12** before continuing.
+
+    </div>
 
 ## What You Will Make
 
@@ -31,8 +49,8 @@ By the end, your game will include:
 
 - Scratch open in the desktop app.
 - A new project named `Arcade Quest`.
-- A hero sprite, a coin sprite, an enemy sprite, and a flag sprite.
-- A simple platform backdrop drawn with solid ground colors.
+- A hero sprite, a platforms sprite, a coin sprite, an enemy sprite, and a flag sprite.
+- A simple backdrop for the sky and scenery.
 
 ## How To Use The Code Images
 
