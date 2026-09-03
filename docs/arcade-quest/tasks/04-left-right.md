@@ -12,7 +12,7 @@ Make the player move with the arrow keys.
 4. Press the green flag.
 5. Test the left and right arrow keys.
 
-![Scratch blocks for moving the player left and right](../assets/scratchblocks/player-move.png){ .scratch-image }
+![Scratch blocks for moving the player left and right](../assets/scratchblocks/left-right-movement.png){ .scratch-image }
 
 ## Check
 

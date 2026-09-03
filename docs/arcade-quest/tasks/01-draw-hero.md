@@ -1,4 +1,4 @@
-# Task 1: Draw Your Hero
+# Draw Your Hero
 
 ## Goal
 

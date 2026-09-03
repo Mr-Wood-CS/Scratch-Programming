@@ -12,6 +12,84 @@ const outputDir = path.join(projectRoot, "docs", "arcade-quest", "assets", "scra
 
 const blocks = [
   {
+    file: "collision-definition",
+    title: "Collision definition",
+    script: `define collision
+if <touching [platform v] ?> then
+if <(y speed) < (0)> then
+repeat until <not <touching [platform v] ?>>
+change y by (1)
+end
+else
+repeat until <not <touching [platform v] ?>>
+change y by (-1)
+end
+end
+set [y speed v] to (0)
+end`,
+  },
+  {
+    file: "collision-loop",
+    title: "Collision loop",
+    script: `when green flag clicked
+forever
+collision :: custom
+end`,
+  },
+  {
+    file: "left-right-movement",
+    title: "Left and right movement",
+    script: `when green flag clicked
+set rotation style [left-right v]
+forever
+if <key [right arrow v] pressed?> then
+change x by (6)
+point in direction (90)
+end
+if <key [left arrow v] pressed?> then
+change x by (-6)
+point in direction (-90)
+end
+end`,
+  },
+  {
+    file: "start-and-bottom-boundary",
+    title: "Starting position and bottom boundary",
+    script: `when green flag clicked
+go to x: (-180) y: (-130)
+point in direction (90)
+forever
+if <(y position) < (-130)> then
+set y to (-130)
+set [y speed v] to (0)
+end
+end`,
+  },
+  {
+    file: "gravity-and-top-boundary",
+    title: "Gravity and top boundary",
+    script: `when green flag clicked
+forever
+change [y speed v] by (-1)
+change y by (y speed)
+if <(y position) > (170)> then
+set y to (170)
+set [y speed v] to (0)
+end
+end`,
+  },
+  {
+    file: "space-bar-jump",
+    title: "Space bar jump",
+    script: `when green flag clicked
+forever
+if <key [space v] pressed?> then
+set [y speed v] to (45)
+end
+wait until <not <key [space v] pressed?>>
+end`,
+  },
+  {
     file: "variable-example",
     title: "Example variable blocks",
     script: `set [my variable v] to [0]

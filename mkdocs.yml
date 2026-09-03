@@ -14,21 +14,23 @@ nav:
       - Challenge: boat-race/boat-race-challenge.md
   - Arcade Quest:
     - Project Overview: arcade-quest/index.md
-    - Lesson 1 - Hero Controls:
+    - "Lesson 1: Create Your Game World":
         - 1. Draw Your Hero: arcade-quest/tasks/01-draw-hero.md
-        - 2. Make Your Platforms: arcade-quest/tasks/02-draw-level.md
+        - 2. Draw Your Level: arcade-quest/tasks/02-draw-level.md
+        - 3. Create Platforms: arcade-quest/tasks/create-platforms.md
+        - 4. Create Collectables: arcade-quest/tasks/create-collectables.md
+    - "Lesson 2: Hero Controls":
         - "3. Make y speed": arcade-quest/tasks/03-y-speed-variable.md
         - "4. Move Left And Right": arcade-quest/tasks/04-left-right.md
         - "5. Jump And Fall": arcade-quest/tasks/05-jump-gravity.md
         - "6. Test The Platforms": arcade-quest/tasks/06-test-platforms.md
-    - "Lesson 2: Coins And Score":
-        - "7. Add A Coin": arcade-quest/tasks/07-add-coin.md
+    - "Lesson 3: Coins And Score":
         - "8. Make score": arcade-quest/tasks/08-score-variable.md
         - "9. Reset score": arcade-quest/tasks/09-reset-score.md
         - "10. Place Coins": arcade-quest/tasks/10-place-coins.md
         - "11. Collect Coins": arcade-quest/tasks/11-collect-coins.md
         - "12. Add Coin Sound": arcade-quest/tasks/12-coin-sound.md
-    - "Lesson 3: Enemies And Lives":
+    - "Lesson 4: Enemies And Lives":
         - "13. Add An Enemy": arcade-quest/tasks/13-add-enemy.md
         - "14. Make lives": arcade-quest/tasks/14-lives-variable.md
         - "15. Set lives": arcade-quest/tasks/15-set-lives.md
@@ -36,7 +38,7 @@ nav:
         - "17. Send ouch": arcade-quest/tasks/17-send-ouch.md
         - "18. Lose A Life": arcade-quest/tasks/18-lose-life.md
         - "19. Game Over": arcade-quest/tasks/19-game-over.md
-    - "Lesson 4: Finish The Game":
+    - "Lesson 5: Finish The Game":
         - "20. Add A Flag": arcade-quest/tasks/20-add-flag.md
         - "21. Make time": arcade-quest/tasks/21-time-variable.md
         - "22. Set time": arcade-quest/tasks/22-set-time.md

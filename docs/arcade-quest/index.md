@@ -1,6 +1,6 @@
 # Scratch Arcade Quest
 
-Build a bright, fast little Scratch platform game over four lessons. The style is inspired by classic 16-bit arcade platformers: a hero runs, jumps, grabs coins, dodges enemies, and reaches a flag at the end of the level.
+Build a bright, fast little Scratch platform game over five lessons. The style is inspired by classic 16-bit arcade platformers: a hero runs, jumps, grabs coins, dodges enemies, and reaches a flag at the end of the level.
 
 <div class="arcade-brief">
 Each lesson is designed for independent work. Start at Lesson 1 and continue to work through the lessons.
@@ -11,13 +11,14 @@ Each lesson is designed for independent work. Start at Lesson 1 and continue to 
 
     <span class="arcade-update-date">28 August 2026</span>
 
-    Platforms are now made as a sprite instead of being painted on the backdrop.
+    Floating platforms are now made as a sprite instead of being painted on the backdrop.
 
-    - The ground and floating platforms belong in one `Platforms` sprite.
+    - The ground is part of the backdrop and the boundary script keeps the player at ground level.
+    - The floating platforms belong in one `Platforms` sprite.
     - The player now lands by detecting the `Platforms` sprite while falling.
     - Platform colour sensing is no longer needed.
 
-    If you have already drawn platforms on the backdrop, follow **Task 2** to move them into a `Platforms` sprite, then replace the player code using **Task 5**.
+    If you have already drawn floating platforms on the backdrop, follow **Create Platforms** in Lesson 1 to move them into a `Platforms` sprite, then replace the player code using **Task 5**.
 
     ---
 
@@ -79,4 +80,4 @@ When a task says **In the sprite list below the Stage**, use the area in the red
 
 ## Start
 
-[Start Lesson 1, Task 1: Draw Your Hero](tasks/01-draw-hero.md)
+[Start Lesson 1: Draw Your Hero](tasks/01-draw-hero.md)
