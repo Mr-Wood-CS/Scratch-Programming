@@ -153,28 +153,6 @@ end
 end`,
   },
   {
-    file: "coin-start-position",
-    title: "Set a coin's starting position",
-    script: `when green flag clicked
-go to x: (-150) y: (-80)
-show`,
-  },
-  {
-    file: "three-coin-start-positions",
-    title: "Three different coin starting positions",
-    script: `when green flag clicked
-go to x: (-150) y: (-80)
-show
-
-when green flag clicked
-go to x: (0) y: (20)
-show
-
-when green flag clicked
-go to x: (145) y: (95)
-show`,
-  },
-  {
     file: "enemy-patrol",
     title: "Enemy patrol",
     script: `when green flag clicked
