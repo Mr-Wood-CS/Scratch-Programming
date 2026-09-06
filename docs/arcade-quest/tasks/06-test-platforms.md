@@ -1,4 +1,4 @@
-# Task 6: Test The Platforms
+# Test The Platforms { .arcade-task }
 
 ## Goal
 

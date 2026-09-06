@@ -1,4 +1,4 @@
-# Create Platforms
+# Create Platforms { .arcade-task }
 
 ## Goal
 

@@ -1,59 +1,39 @@
-# Task 10: Place Your Coins
+# Choose And Save The Collectable's Position { .arcade-task }
 
 ## Goal
 
-Put a coin above a platform where the `Player` can reach it. Then learn how to add more coins without drawing each one again.
+Choose a place for your first collectable and make it return there whenever the game starts.
 
-## Place The First Coin
+## Do This
 
-1. In the sprite list below the Stage, click the `Coin` sprite.
-2. Drag the coin on the Stage and place it just above a platform.
-3. Choose a platform the `Player` can jump onto.
-4. Leave a small gap between the coin and the platform. Do not put the coin inside the platform or the ground.
-5. Press the green flag and test the jump.
+1. Click the `Collectable` thumbnail below the Stage.
 
-## Make The Coin Return To Its Place
+    ![Where to select the Collectable sprite](<../assets/collectable location.png>){ .example-image }
 
-Add these blocks to the `Coin` sprite so it returns to the same place whenever the game starts:
+2. Find the collectable on the **Stage**—the game screen in the top-right of Scratch. Click and hold the collectable on the game screen, drag it just above a platform, then release the mouse button. Drag the collectable on the Stage, not its thumbnail in the sprite list.
 
-![Scratch blocks that set a coin's starting position](../assets/scratchblocks/coin-start-position.png){ .scratch-image }
+    ![Moving the collectable on the Stage](../assets/moving-the-collectable.png){ .example-image }
 
-Build it like this:
+3. Find the **x** and **y** number boxes in the sprite information panel, between the Stage and the sprite list. Write down both numbers.
 
-1. With the `Coin` sprite selected, open **Events** and add `when green flag clicked`.
-2. Open **Motion** and attach `go to x: () y: ()`.
-3. Open **Looks** and attach `show`.
-4. Drag the coin to the place you want.
-5. Look below the Stage to find the coin's current `x` and `y` numbers. Type those numbers into the `go to x: () y: ()` block.
-6. Move the coin somewhere else, press the green flag, and check that it returns to its starting place.
+    ![The x and y position boxes below the Stage](<../assets/x and y boxes.png>){ .example-image }
 
-The numbers above are only an example. Use the coordinates that fit your level.
+4. Click **Code**.
 
-## Add More Than One Coin
+    ![The Code tab in Scratch](../assets/code-tab.png){ .example-image }
 
-Wait until you have completed Tasks 11 and 12. The first coin will then have all its code and sound, so duplicating it copies everything.
+5. Click **Events** and drag `when green flag clicked` into the code area.
+6. From **Motion**, attach `go to x: y:` underneath it. Type your two numbers into it.
+7. From **Looks**, attach `show`.
 
-1. Finish the first coin, including its code.
-2. In the sprite list, right-click the `Coin` sprite. On a tablet, press and hold it.
-3. Choose **duplicate**.
-4. Select the new copy and drag it above a different reachable platform.
-5. If you used starting-position code, change the `x` and `y` values in the copy so they match its new position.
-6. Repeat **duplicate**, move, and update the coordinates for every extra coin.
+![Scratch blocks saving the collectable's starting position](../assets/scratchblocks/coin-start-position.png){ .scratch-image }
 
-Each sprite needs different coordinates. Here are three example starting-position scripts. Put the first script on `Coin`, the second on `Coin2`, and the third on `Coin3`:
+Use your own coordinates. If you already have this script, update it instead of adding another copy.
 
-![Scratch block stacks showing three different coin starting positions](../assets/scratchblocks/three-coin-start-positions.png){ .scratch-image }
-
-Use your own `x` and `y` numbers—the examples will not fit every level.
-
-Each coin must be a separate sprite. Do not paint several coins in one costume or onto the backdrop: Scratch would treat them as one object.
-
-!!! warning "Do not duplicate the coin yet"
-    Code added to `Coin` in the next tasks will not automatically appear in copies you make now. Finish Task 12 first, then return here and follow **Add More Than One Coin**.
+Keep **one collectable** for now. Finish its collection code and sound before duplicating it.
 
 ## Check
 
-- The first coin is visible and reachable.
-- Every extra coin is a separate sprite in the sprite list.
-- No coin is inside a platform or the ground.
-- Pressing the green flag returns every coded coin to its own starting position.
+Drag the collectable to a different place on the **Stage**, then press the green flag. It should return to your chosen position and be visible.
+
+Keep this script. Next, you will create the shared score and set it to zero. After that, you will add the collection blocks underneath this script.

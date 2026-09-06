@@ -2,6 +2,15 @@ body {
   color: #1c2430;
 }
 
+/* The Arcade Quest introduction starts a new project. */
+body:has(#scratch-arcade-quest) .md-footer__link--prev {
+  display: none;
+}
+
+body:has(#scratch-arcade-quest) .md-footer__link--next {
+  margin-left: auto;
+}
+
 .arcade-brief {
   border-left: 5px solid #ffcb3d;
   background: #fff8df;
@@ -92,4 +101,14 @@ body {
 
 .task-list li {
   margin-bottom: 0.35rem;
+}
+
+/* Align task numbers with the content edge, allowing space for the marker. */
+.md-typeset:has(> h1.arcade-task) > ol {
+  margin-left: 0;
+  padding-left: 1.5em;
+}
+
+.md-typeset:has(> h1.arcade-task) > ol > li {
+  margin-left: 0;
 }

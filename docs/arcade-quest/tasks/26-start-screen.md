@@ -1,4 +1,4 @@
-# Task 26: Start Screen
+# Start Screen { .arcade-task }
 
 ## Goal
 

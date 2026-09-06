@@ -1,4 +1,4 @@
-# Draw Your Hero
+# Draw Your Player { .arcade-task }
 
 ## Goal
 
@@ -14,10 +14,10 @@ Make the character the player will control.
 2. Delete the cat sprite.
 3. Click **Choose a Sprite**.
 4. Click **Paint**.
-5. Draw a small arcade hero.
+5. Draw a small arcade player.
 6. Rename the sprite `Player`.
 
-![Four example platform game hero sprite ideas: adventurer, star explorer, robot, and blob](../assets/examples/hero-sprite-ideas.png){ .example-image }
+![Four example platform game player sprite ideas: adventurer, star explorer, robot, and blob](../assets/examples/hero-sprite-ideas.png){ .example-image }
 
 ## Check
 

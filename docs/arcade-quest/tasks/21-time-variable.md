@@ -1,4 +1,4 @@
-# Task 21: Make `time`
+# Make `time` { .arcade-task }
 
 ## Goal
 
@@ -11,7 +11,7 @@ Create the variable that stores the timer.
 3. Name the variable `time`.
 4. Click **OK**.
 
-Use [Task 3: Make `y speed`](03-y-speed-variable.md) if you need to see the variable buttons again.
+Use [Make `y speed`](03-y-speed-variable.md) if you need to see the variable buttons again.
 
 ## Check
 

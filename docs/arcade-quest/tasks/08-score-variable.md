@@ -1,18 +1,37 @@
-# Task 8: Make `score`
+# Add The Scoring { .arcade-task }
 
 ## Goal
 
-Create the variable that stores the player’s score.
+Create one shared score and make it start at zero each time the game starts.
 
-## Do This
+## Add The Scoring
 
-1. Click **Variables**.
-2. Click **Make a Variable**.
+1. Click the first `Collectable` thumbnail in the sprite list below the Stage.
+2. Click **Variables**, then **Make a Variable**.
 3. Name the variable `score`.
-4. Click **OK**.
+4. Choose **For all sprites** so every collectable adds to the same score.
+5. Click **OK**. Tick the box beside `score` to show the total on the Stage.
 
-Use [Task 3: Make `y speed`](03-y-speed-variable.md) if you need to see the variable buttons again.
+![Scratch variable example](../assets/variable.png){ .scratch-image }
+
+## Reset The Scoring
+
+1. Click the **Stage** thumbnail beside the sprite list.
+
+    ![The Stage thumbnail beside the sprite list](../assets/stage-thumbnail.png){ .example-image }
+
+2. Click **Code**. From **Events**, drag out `when green flag clicked`.
+
+    ![The Code tab in Scratch](../assets/code-tab.png){ .example-image }
+
+3. From **Variables**, attach `set score to 0`. Choose `score` from the dropdown.
+
+![Scratch blocks for resetting the score](../assets/scratchblocks/score-start.png){ .scratch-image }
+
+In the next task, the collectable will add points to the shared score.
 
 ## Check
 
-You should see a variable called `score`.
+You should see `score` on the Stage. Press the green flag and check that it shows `0`.
+
+![Example showing the score on the Stage](../assets/add-the-scoring.png){ .example-image }

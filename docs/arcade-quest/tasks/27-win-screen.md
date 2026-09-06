@@ -1,4 +1,4 @@
-# Task 27: Win Screen
+# Win Screen { .arcade-task }
 
 ## Goal
 
@@ -11,7 +11,7 @@ Show the player that they won.
 3. Add a message like `You Win!`.
 4. Add `when I receive you win`.
 5. Switch to the win backdrop.
-6. Hide enemies and coins.
+6. Hide enemies and collectables.
 
 ## Check
 

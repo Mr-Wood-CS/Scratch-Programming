@@ -1,4 +1,4 @@
-# Draw Your Level
+# Draw Your Level { .arcade-task }
 
 ## Goal
 

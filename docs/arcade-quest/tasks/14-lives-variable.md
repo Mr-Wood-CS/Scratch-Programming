@@ -1,4 +1,4 @@
-# Task 14: Make `lives`
+# Make `lives` { .arcade-task }
 
 ## Goal
 
@@ -11,7 +11,7 @@ Create the variable that stores how many tries the player has.
 3. Name the variable `lives`.
 4. Click **OK**.
 
-Use [Task 3: Make `y speed`](03-y-speed-variable.md) if you need to see the variable buttons again.
+Use [Make `y speed`](03-y-speed-variable.md) if you need to see the variable buttons again.
 
 ## Check
 

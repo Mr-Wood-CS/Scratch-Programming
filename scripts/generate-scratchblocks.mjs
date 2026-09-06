@@ -12,6 +12,13 @@ const outputDir = path.join(projectRoot, "docs", "arcade-quest", "assets", "scra
 
 const blocks = [
   {
+    file: "platforms-start-position",
+    title: "Keep the platforms in their chosen position",
+    script: `when green flag clicked
+go to x: (0) y: (0)
+show`,
+  },
+  {
     file: "collision-definition",
     title: "Collision definition",
     script: `define collision
@@ -66,14 +73,25 @@ end
 end`,
   },
   {
+    file: "start-position-only",
+    title: "Starting position after moving the ground check into gravity",
+    script: `when green flag clicked
+go to x: (-180) y: (-130)
+point in direction (90)`,
+  },
+  {
     file: "gravity-and-top-boundary",
-    title: "Gravity and top boundary",
+    title: "Gravity with top and bottom boundaries",
     script: `when green flag clicked
 forever
 change [y speed v] by (-1)
 change y by (y speed)
 if <(y position) > (170)> then
 set y to (170)
+set [y speed v] to (0)
+end
+if <(y position) < (-130)> then
+set y to (-130)
 set [y speed v] to (0)
 end
 end`,
@@ -140,28 +158,43 @@ set [score v] to [0]`,
   },
   {
     file: "coin-collect",
-    title: "Collect a coin",
+    title: "Position and collect the first collectable",
     script: `when green flag clicked
+go to x: (-150) y: (-80)
 show
 forever
 if <touching [Player v] ?> then
 change [score v] by (1)
-play sound [coin v] until done
 hide
 stop [this script v]
 end
 end`,
   },
   {
+    file: "coin-complete",
+    title: "Complete first collectable with position, collection and sound",
+    script: `when green flag clicked
+go to x: (-150) y: (-80)
+show
+forever
+if <touching [Player v] ?> then
+change [score v] by (1)
+hide
+play sound [collectable v] until done
+stop [this script v]
+end
+end`,
+  },
+  {
     file: "coin-start-position",
-    title: "Set a coin's starting position",
+    title: "Set a collectable's starting position",
     script: `when green flag clicked
 go to x: (-150) y: (-80)
 show`,
   },
   {
     file: "three-coin-start-positions",
-    title: "Three different coin starting positions",
+    title: "Three different collectable starting positions",
     script: `when green flag clicked
 go to x: (-150) y: (-80)
 show

@@ -1,4 +1,4 @@
-# Task 20: Add A Flag
+# Add A Flag { .arcade-task }
 
 ## Goal
 

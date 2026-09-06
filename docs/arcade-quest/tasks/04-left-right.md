@@ -1,4 +1,4 @@
-# Task 4: Move Left And Right
+# Move Left And Right { .arcade-task }
 
 ## Goal
 
@@ -6,7 +6,7 @@ Make the player move with the arrow keys.
 
 ## Do This
 
-1. In the sprite list below the Stage, click the `Player` sprite. (If you cannot remember where the sprite list is, go back to [Start Here: Where To Click Sprites](../../index.md#where-to-click-sprites).)
+1. In the sprite list below the Stage, click the `Player` sprite. (If you cannot remember where the sprite list is, go back to [Scratch Help: Where To Click Sprites](../scratch-help.md#where-to-click-sprites).)
 2. Build this code.
 3. Make sure `set rotation style` says **left-right**. This stops the player turning upside down.
 4. Press the green flag.
