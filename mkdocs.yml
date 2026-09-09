@@ -4,14 +4,34 @@ site_description: Scratch programming projects for learning game design and core
 nav:
   - Home: index.md
   - Boat Race:
-      - Project Overview: boat-race/index.md
-      - 1. Getting Started: boat-race/boat-race-step-1.md
-      - 2. Controlling The Boat: boat-race/boat-race-step-2.md
-      - 3. Crashing: boat-race/boat-race-step-3.md
-      - 4. Winning: boat-race/boat-race-step-4.md
-      - 5. Adding A Timer: boat-race/boat-race-step-5.md
-      - 6. Obstacles And Boosters: boat-race/boat-race-step-6.md
-      - Challenge: boat-race/boat-race-challenge.md
+      - Start Here: boat-race/index.md
+      - "Part 1: Get Started":
+          - "Open The Starter Project": boat-race/tasks/01-open-project.md
+          - "Check Your Race Course": boat-race/tasks/02-check-course.md
+      - "Part 2: Control The Boat":
+          - "Follow The Mouse": boat-race/tasks/03-follow-mouse.md
+          - "Stop At The Pointer": boat-race/tasks/04-stop-at-pointer.md
+      - "Part 3: Add Crashes":
+          - "Make A Hit Costume": boat-race/tasks/05-hit-costume.md
+          - "Detect The Wooden Barriers": boat-race/tasks/06-detect-barriers.md
+          - "Start With The Normal Costume": boat-race/tasks/07-start-normal.md
+      - "Part 4: Reach The Island":
+          - "Add The Winning Condition": boat-race/tasks/08-winning-condition.md
+          - "Test Your Race": boat-race/tasks/09-test-race.md
+      - "Part 5: Add A Timer":
+          - "Make time": boat-race/tasks/10-time-variable.md
+          - "Count Up": boat-race/tasks/11-count-up.md
+      - "Part 6: Obstacles And Boosters":
+          - "Draw Booster Arrows": boat-race/tasks/12-draw-boosters.md
+          - "Add The Speed Boost": boat-race/tasks/13-speed-boost.md
+          - "Draw A Gate": boat-race/tasks/14-draw-gate.md
+          - "Spin The Gate": boat-race/tasks/15-spin-gate.md
+          - "Check Your Finished Game": boat-race/tasks/16-check-game.md
+      - "Challenges":
+          - Improve Your Game: boat-race/boat-race-challenge.md
+      - "Help And Reference":
+          - Scratch Help: boat-race/scratch-help.md
+          - Project Updates: boat-race/updates.md
   - Arcade Quest:
     - Start Here: arcade-quest/index.md
     - "Part 1: Create Your Game World":

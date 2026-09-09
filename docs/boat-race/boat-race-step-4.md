@@ -1,17 +1,8 @@
-# Step 4: Winning!
+# Part 4: Reach The Island
 
-When the boat gets to the island, the game should say ==YEAH!==, and then it should end.
+This part is now split into short tasks. Continue with the first task you have not completed.
 
-Add more code blocks inside your ==forever== loop so that your code keeps checking if the player has won.
+1. [Add The Winning Condition](tasks/08-winning-condition.md)
+2. [Test Your Race](tasks/09-test-race.md)
 
-Here’s what your new code should look like:
-
-![Winning condition Scratch blocks](assets/boat-block-05-winning-condition.png){ width="50%" }
-
-!!! warning "**Before you go any further, test your code.**"
-
-    Click the green flag and make sure the game runs as expected. To make it a little easier to test, you can change the numbers in the first ==go to== block to be this:
-
-    ![Test start position Scratch blocks](assets/boat-block-06-test-start-position.png){ width="50%" }
-
-    Don’t forget to change it back once you’ve tested!
+[View all parts](index.md)
