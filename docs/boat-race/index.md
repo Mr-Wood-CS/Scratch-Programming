@@ -1,26 +1,33 @@
-# Boat race
+# Scratch Boat Race
 
-Create a boat-racing game in which you have to avoid obstacles.
+Build a boat-racing game where you steer with the mouse, avoid wooden barriers, use boosters, and reach an island as quickly as possible.
 
-![Boat race demo](assets/boat_race_demo.png)
+## Get Started
 
-## What you will make
+1. Open Scratch desktop.
+2. Use **Next** at the bottom of this page to open **Open The Starter Project**.
+3. Download and open the starter file, then build and test your game one task at a time.
 
-Make a boat racing game! Use the mouse to navigate a boat to an island without bumping into obstacles.
+!!! tip "Work at your own pace"
+    The project has six parts, followed by optional challenges. A part may take more than one class session. Complete and check each task before moving on. If you have already started, carry on from your last task using the navigation.
 
-![Boat race banner](assets/small_banner.png)
+![Boat Race example](assets/boat_race_demo.png){ .example-image }
 
-## Skills you will practise
+## Experiences and Outcomes
 
-This project links to Scottish Curriculum for Excellence Technologies at Third Level.
+| Experience and Outcome | What you will do in Boat Race | Evidence of success |
+| --- | --- | --- |
+| **TCH 3-13a** — Information processes and how they communicate | Run the boat, Stage timer, and spinning gate scripts at the same time. Explore how `stop all` ends them together. | You can identify the separate processes and explain what happens to them when the player wins. |
+| **TCH 3-14a** — Read and explain programming constructs | Build and trace scripts using events, loops, conditions, sensing, operators, and the `time` variable. | You can explain how the code controls movement, crashes, boosters, and timing. |
+| **TCH 3-15a** — Design, build, evaluate, and refine a solution | Build the race from a starter project, test each feature, fix problems, and add an improvement. | Your game meets its requirements, and you can describe a change made after testing. |
 
-| Skill area | What you will do in this project | CfE link |
-|---|---|---|
-| Designing and building solutions | Build, test, debug, and improve a working Scratch game. | TCH 3-15a |
-| Programming constructs | Use events, loops, conditions, sensing, operators, variables, and costumes. | TCH 3-14a |
-| Computational thinking | Break the game into smaller processes, including movement, obstacles, timing, and winning. | TCH 3-13a |
-| Modelling a system | Use sprites, backdrops, variables, states, and rules to model a simple boat race. | TCH 3-13b |
-| Understanding system interaction | Explore how mouse input, Scratch blocks, sprites, and the stage work together. | TCH 3-14b |
+!!! note "Assessment note"
+    This project can contribute evidence towards these outcomes. It uses one variable, `time`; further work with multiple variables is needed to demonstrate that aspect of the Level 3 design-and-build benchmark. Be ready to explain your code and demonstrate your testing.
+
+## Need Something Else?
+
+- [Scratch Help](scratch-help.md): find sprites, read code images, and choose colours.
+- [Project Updates](updates.md): find your place if you started the earlier six-step guide.
 
 ## Attribution
 

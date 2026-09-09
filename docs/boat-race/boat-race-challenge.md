@@ -1,6 +1,14 @@
-# Challenge
+# Improve Your Game { .boat-task }
+
+## Goal
 
 Choose one or more challenges to improve your Boat Race game.
+
+## Do This
+
+1. Save your working game before changing it.
+2. Choose a challenge below and build one improvement at a time.
+3. Test your change, then repeat the [finished game checks](tasks/16-check-game.md).
 
 ## Add sound effects
 
@@ -59,7 +67,7 @@ You could also add background music to make your game feel more complete.
 
     Example:
 
-    ![Background music Scratch blocks](assets/challenge1.png){ width="50%" }
+    ![Background music Scratch blocks](assets/challenge1.png){ .scratch-image }
 
     If the music is too loud, use the sound editor in Scratch to make it quieter.
 
@@ -86,7 +94,7 @@ You could turn your game into a race between two players. Player 1 can keep usin
 
     Example:
 
-    ![Player 2 controls Scratch blocks](assets/challenge2.png){ width="50%" }
+    ![Player 2 controls Scratch blocks](assets/challenge2.png){ .scratch-image }
 
     Remember to add crash and winning code for Player 2 as well.
 
@@ -99,3 +107,7 @@ You could also:
 - Add a moving obstacle, for example, a log or a shark.
 - Create more levels by adding different backdrops.
 - Let the player choose which level to play.
+
+## Check
+
+Your improvement works and the original race still plays correctly. Save your project and explain what you changed and how you tested it.

@@ -1,29 +1,8 @@
-# Step 1: Getting started
+# Part 1: Get Started
 
-<style>
-  .md-footer__link--prev {
-    display: none;
-  }
-</style>
+This part is now split into short tasks. Continue with the first task you have not completed.
 
-!!! info "How to download and open the starter project in Scratch."
+1. [Open The Starter Project](tasks/01-open-project.md)
+2. [Check Your Race Course](tasks/02-check-course.md)
 
-    [Download the Boat Race starter project](BoatRace.sb3){ .md-button .md-button--primary .download-button }
-
-    1. Click the **Start** button or press the **Windows** key.
-    2. Type **Scratch** into the search box.
-    3. Click **Scratch** to open it.
-    4. Click **File** in the top menu.
-    5. Choose **Load from your computer**.
-    6. Go to your **Downloads** folder.
-    7. Select ==BoatRace.sb3==.
-    8. Click **Open**.
-
-    Your starter project should now open in Scratch.
-
-The project includes a boat sprite, and a race course backdrop with:
-
-- Wood that the boat sprite has to avoid
-- A desert island that the boat has to reach
-
-![Boat race starter project](assets/boat-starter.png)
+[View all parts](index.md)
