@@ -53,8 +53,10 @@ nav:
         - "Make y speed": arcade-quest/tasks/03-y-speed-variable.md
         - "Move Left And Right": arcade-quest/tasks/04-left-right.md
     - "Part 6: Jump And Fall":
-        - "Add Gravity": arcade-quest/tasks/05-jump-gravity.md
         - "Add Platform Collision": arcade-quest/tasks/platform-collision.md
+        - "Check Stage Edges": arcade-quest/tasks/check-stage-edges.md
+        - "Move Vertically": arcade-quest/tasks/move-vertically.md
+        - "Add Gravity": arcade-quest/tasks/05-jump-gravity.md
         - "Jump With Space": arcade-quest/tasks/space-bar-jump.md
         - "Test The Platforms": arcade-quest/tasks/06-test-platforms.md
     - "Part 7: Enemies And Lives":

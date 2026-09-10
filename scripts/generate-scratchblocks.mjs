@@ -27,6 +27,7 @@ if <(y speed) < (0)> then
 repeat until <not <touching [platform v] ?>>
 change y by (1)
 end
+set [on ground v] to (1)
 else
 repeat until <not <touching [platform v] ?>>
 change y by (-1)
@@ -36,11 +37,47 @@ set [y speed v] to (0)
 end`,
   },
   {
-    file: "collision-loop",
-    title: "Collision loop",
-    script: `when green flag clicked
-forever
+    file: "stage-edges-definition",
+    title: "Keep the player inside the stage",
+    script: `define check stage edges
+if <(y position) > (170)> then
+set y to (170)
+set [y speed v] to (0)
+end
+if <(y position) < (-130)> then
+set y to (-130)
+set [y speed v] to (0)
+set [on ground v] to (1)
+end`,
+  },
+  {
+    file: "move-vertically-definition",
+    title: "Move vertically one pixel at a time",
+    script: `define move vertically
+set [on ground v] to (0)
+repeat ([abs v] of (y speed))
+if <(y speed) > (0)> then
+change y by (1)
 collision :: custom
+check stage edges :: custom
+else
+if <(y speed) < (0)> then
+change y by (-1)
+collision :: custom
+check stage edges :: custom
+end
+end
+end`,
+  },
+  {
+    file: "collision-loop",
+    title: "Gravity with pixel-by-pixel collision",
+    script: `when green flag clicked
+set [y speed v] to (0)
+set [on ground v] to (0)
+forever
+change [y speed v] by (-1)
+move vertically :: custom
 end`,
   },
   {
@@ -102,7 +139,10 @@ end`,
     script: `when green flag clicked
 forever
 if <key [space v] pressed?> then
-set [y speed v] to (45)
+if <(on ground) = (1)> then
+set [on ground v] to (0)
+set [y speed v] to (14)
+end
 end
 wait until <not <key [space v] pressed?>>
 end`,

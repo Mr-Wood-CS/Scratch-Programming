@@ -12,7 +12,7 @@
     - The player now lands by detecting the `Platforms` sprite while falling.
     - Platform colour sensing is no longer needed.
 
-    If you have already drawn floating platforms on the backdrop, follow **Create Platforms** in Part 1 to move them into a `Platforms` sprite, then replace the player code using **Add Gravity**, **Add Platform Collision**, and **Jump With Space**.
+    If you have already drawn floating platforms on the backdrop, follow **Create Platforms** in Part 1 to move them into a `Platforms` sprite, then replace the player code using **Add Platform Collision**, **Check Stage Edges**, **Move Vertically**, **Add Gravity**, and **Jump With Space**.
 
     ---
 

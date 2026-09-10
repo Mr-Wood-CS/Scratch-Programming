@@ -2,18 +2,23 @@
 
 ## Goal
 
-Make the player fall and stay between the top and bottom of the Stage.
+Use your custom blocks to make the player fall and land on platforms.
 
 ## Do This
 
 1. Click the `Player` sprite.
-2. Keep the starting-position script from [Set Your Player's Start Position](set-start-position.md) on the sprite.
-3. Build the script below, with both boundary checks inside the same `forever` loop.
+2. Keep your starting-position and left-and-right movement scripts.
+3. Check that you have built `collision`, `check stage edges`, and `move vertically` from the last three tasks.
+4. Build this new script. Find `move vertically` in **My Blocks**.
 
-![Scratch blocks for gravity with the top and bottom boundary checks in one loop](../assets/scratchblocks/gravity-and-top-boundary.png){ .scratch-image }
+![Scratch gravity loop calling move vertically](../assets/scratchblocks/collision-loop.png){ .scratch-image }
+
+`change y speed by -1` makes the player fall. `move vertically` moves the player and uses your other blocks to check platforms and stage edges.
 
 ## Check
 
-Press the green flag. Drag the player above ground level and release it. It should fall and stop at `y: -130`.
+Press the green flag. Drag the player above a platform and release it. It should fall onto the platform and stop.
 
-You will add platform collision and jumping in the next tasks.
+Try dropping the player where there is no platform. It should stop at ground level, `y: -130`.
+
+Next: [Jump With Space](space-bar-jump.md).

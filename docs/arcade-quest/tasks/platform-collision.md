@@ -6,7 +6,9 @@ Stop the player falling through platforms.
 
 ## Do This
 
-Select the `Player` sprite, then follow these steps.
+Select the `Player` sprite. Create a variable named `on ground` **for this sprite only**. Use `1` for standing on a platform or the ground, and `0` for being in the air.
+
+Then follow these steps.
 
 1. Click **My Blocks**.
 2. Click **Make a Block**.
@@ -19,10 +21,10 @@ In each `touching` block, choose the sprite containing your platforms.
 
 ![Scratch blocks defining platform collision](../assets/scratchblocks/collision-definition.png){ .scratch-image }
 
-Now run the collision block continuously:
-
-![Scratch blocks running collision in a loop](../assets/scratchblocks/collision-loop.png){ .scratch-image }
-
 ## Check
 
-Press the green flag. Drag the player just above a platform and release it. It should fall onto the platform and stop.
+Your `collision` definition should match the picture. Check that each `touching` block uses your platform sprite.
+
+We will use this block in **Move Vertically**, then run it when we build **Add Gravity**.
+
+Next: [Check Stage Edges](check-stage-edges.md).

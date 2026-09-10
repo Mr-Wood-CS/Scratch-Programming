@@ -8,7 +8,7 @@ Check that every platform works.
 
 1. Press the green flag.
 2. Jump onto the ground.
-3. Jump onto each floating platform.
+3. Jump onto each floating platform, then jump again from that platform. Check that the player rises and lands back on it.
 4. Walk off the edge of a platform.
 5. Check that every floating platform belongs to the `Platforms` sprite if the player falls through one.
 6. Hold **space**. The player should jump only once.

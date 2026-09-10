@@ -18,7 +18,7 @@ When you click the green flag, the player starts at `x: -180`, `y: -130` and fac
 
 Keep this script on the sprite as you add movement and jumping in the next steps.
 
-In [Add Gravity](05-jump-gravity.md), you will add the ground check inside the gravity loop.
+In [Check Stage Edges](check-stage-edges.md), you will make a block that stops the player at ground level.
 
 ## Check
 
