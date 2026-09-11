@@ -1,0 +1,35 @@
+.md-typeset img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.md-typeset a.glightbox {
+  display: block;
+  text-align: center;
+}
+
+.md-typeset .highlight,
+.md-typeset pre {
+  width: fit-content;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.md-typeset .highlight pre {
+  width: auto;
+}
+
+.md-typeset .download-button {
+  border-radius: 999px;
+}
+
+[dir="ltr"] .md-header__button.md-logo {
+  margin-right: 0;
+  padding-right: 0.2rem;
+}
+
+[dir="ltr"] .md-header__title {
+  margin-left: 0.25rem;
+}
