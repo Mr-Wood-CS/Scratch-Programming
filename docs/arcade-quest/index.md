@@ -26,5 +26,6 @@ Arcade Quest helps you work towards the following **Curriculum for Excellence Co
 
 ## Need Something Else?
 
+- [Extension Tasks](extension-tasks.md): choose from six optional challenges once your main game works.
 - [Scratch Help](scratch-help.md): find the sprite list and learn how to use the code images.
 - [Project Updates](updates.md): check changes if you started an earlier version.

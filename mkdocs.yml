@@ -83,6 +83,7 @@ nav:
         - "Add Scrolling Controls": arcade-quest/tasks/scroll-player.md
         - "Move The Level Sprites": arcade-quest/tasks/scroll-level-sprites.md
         - "Test The Scrolling Level": arcade-quest/tasks/scroll-test.md
+    - "Extension Tasks": arcade-quest/extension-tasks.md
     - "Help And Reference":
         - Scratch Help: arcade-quest/scratch-help.md
         - Project Updates: arcade-quest/updates.md
