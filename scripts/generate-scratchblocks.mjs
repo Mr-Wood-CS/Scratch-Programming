@@ -82,17 +82,23 @@ end`,
   },
   {
     file: "left-right-movement",
-    title: "Left and right movement",
+    title: "Left and right movement with platform side collision",
     script: `when green flag clicked
 set rotation style [left-right v]
 forever
 if <key [right arrow v] pressed?> then
-change x by (6)
 point in direction (90)
+change x by (6)
+if <touching [Platforms v] ?> then
+change x by (-6)
+end
 end
 if <key [left arrow v] pressed?> then
-change x by (-6)
 point in direction (-90)
+change x by (-6)
+if <touching [Platforms v] ?> then
+change x by (6)
+end
 end
 end`,
   },
