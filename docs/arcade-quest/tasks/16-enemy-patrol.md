@@ -10,7 +10,7 @@ Make the enemy move back and forth.
 2. Build this code.
 3. Press the green flag.
 
-![Scratch blocks for enemy patrol](../assets/scratchblocks/enemy-patrol.png){ .scratch-image }
+![Scratch blocks for horizontal enemy patrol](../assets/scratchblocks/enemy-patrol-horizontal.png){ .scratch-image }
 
 `point in direction 90` makes the enemy start by moving horizontally to the right. `set rotation style left-right` keeps it upright when it bounces and faces the other way.
 

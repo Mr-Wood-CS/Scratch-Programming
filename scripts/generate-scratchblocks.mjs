@@ -254,7 +254,7 @@ go to x: (145) y: (95)
 show`,
   },
   {
-    file: "enemy-patrol",
+    file: "enemy-patrol-horizontal",
     title: "Enemy patrol",
     script: `when green flag clicked
 set rotation style [left-right v]
