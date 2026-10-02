@@ -262,6 +262,17 @@ point in direction (90)
 forever
 move (3) steps
 if on edge, bounce
+end`,
+  },
+  {
+    file: "enemy-ouch",
+    title: "Enemy patrol broadcasting ouch when it touches the player",
+    script: `when green flag clicked
+set rotation style [left-right v]
+point in direction (90)
+forever
+move (3) steps
+if on edge, bounce
 if <touching [Player v] ?> then
 broadcast [ouch v]
 wait (1) seconds
