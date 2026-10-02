@@ -1,0 +1,18 @@
+/* Keep Boat Race task spacing consistent with Arcade Quest. */
+.md-typeset:has(> h1.boat-task) > ol {
+  margin-left: 0;
+  padding-left: 1.5em;
+}
+
+.md-typeset:has(> h1.boat-task) > ol > li {
+  margin-left: 0;
+}
+
+/* Start a new project at the Boat Race introduction. */
+body:has(#scratch-boat-race) .md-footer__link--prev {
+  display: none;
+}
+
+body:has(#scratch-boat-race) .md-footer__link--next {
+  margin-left: auto;
+}
