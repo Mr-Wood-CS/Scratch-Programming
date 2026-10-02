@@ -257,6 +257,8 @@ show`,
     file: "enemy-patrol",
     title: "Enemy patrol",
     script: `when green flag clicked
+set rotation style [left-right v]
+point in direction (90)
 forever
 move (3) steps
 if on edge, bounce

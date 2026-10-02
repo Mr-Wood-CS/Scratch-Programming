@@ -12,6 +12,8 @@ Make the enemy move back and forth.
 
 ![Scratch blocks for enemy patrol](../assets/scratchblocks/enemy-patrol.png){ .scratch-image }
 
+`point in direction 90` makes the enemy start by moving horizontally to the right. `set rotation style left-right` keeps it upright when it bounces and faces the other way.
+
 ## Check
 
-The enemy should move and bounce when it reaches an edge.
+The enemy should patrol horizontally from side to side and bounce when it reaches an edge. It should not drift up or down.
